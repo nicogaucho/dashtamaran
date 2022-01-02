@@ -1,0 +1,24 @@
+
+body {
+    background-color: #EBECF4;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.wallet {
+    width: 100%;
+    border-radius: 12px;
+    background-color: #F3F4FD;
+}
+
+.dashboard {
+    border: none;
+    border-radius: 12px;
+    background-color: #F3F4FD;
+}
+
+.card-overview {
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgb(230, 230, 230);
+}

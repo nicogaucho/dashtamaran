@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Dashboard tamaran</title>
+</head>
+<body>
+    
+    
+    
+    <div class="container my-3 py-3">
+        <div class="row mb-3">
+            <div class="col-12">
+                <div class="card shadow dashboard p-5">
+                    <div class="row">
+                        <div class="col-12 d-flex align-items-center justify-content-between">
+                            <p class="lead fw-bold"> Dashboard wallet 📊</p>
+                            <img src="./Tamaran_Logo_BROWN.png" width="70" alt="">
+                        </div>
+                    </div>
+
+                    
+                    
+                    <!-- expensies row -->
+                    <div class="row mt-3">
+                        <div class="col-12 mb-3">
+                            <p class="fw-bold mb-0">Fix expenses overview <span class="text-muted small"> (values in expenses must be considered negative)</span></p>
+                            <p class="small mb-0 text-muted">Reference values Dicember 2021</p>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card card-overview border-0 p-3 mb-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p>Rent house</p>
+                                    <h2>🏠</h2>
+                                    
+                                </div>
+                                <p id="" class="fw-bold h3">€2630</p>
+                                <p class="text-muted small">Rent month of december</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card card-overview border-0 p-3 mb-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p>Bills</p>
+                                    <h2>🧾</h2>
+                                    
+                                </div>
+                                <p id="" class="fw-bold h3">€929</p>
+                                <p class="text-muted small">fix costs of maintenance</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- income row -->
+                    <div class="row mt-3">
+                        <div class="col-12 mb-3">
+                            <p class="fw-bold mb-0">Income overview</p>
+                            <p class="small mb-0 text-muted">Reference values Dicember 2021</p>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card card-overview border-0 p-3 mb-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p>Sabadell bank</p>
+                                    <img src="./sabadell.png" width="80" alt="">
+                                </div>
+                                
+                                <p id="estratto" class="fw-bold h3"></p>
+                                <p class="text-muted small">End of the year financial record 2021</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card card-overview border-0 p-3 mb-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p>Extranet Booking.com</p>
+                                    <img src="./Booking-Logo-PNG-Free-Download.png" width="90" alt="">
+                                </div>
+                                
+                                
+                                <p id="booking" class="fw-bold h3">€6130,42</p>
+                                <p class="text-muted small">Booking.com december balance</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card card-overview border-0 p-3 mb-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p>Cash box file</p>
+                                    <h2>📈</h2>
+                                </div>
+                                <p id="" class="fw-bold h3">€272,33</p>
+                                <p class="text-muted small">Cash box final balance</p>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="row mt-5">
+                        <div class="col-12 mb-3">
+                            <p class="fw-bold mb-0">Money Activities december 2021</p>
+                        </div>
+                        
+                        
+                        <div class="col-12 mb-3">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"/>
+                                    </svg>
+                                </div>
+                                <div class="col">
+                                    <img src="./sabadell.png" class="d-block mx-auto" width="80" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <p class="small mb-0 text-muted">Sabadell bank movements in december between positive and negative transactions</p>
+                                </div>
+                                <div class="col-4">
+                                    <p id="balanceDecember" class="small fw-bold mb-0"></p>
+                                </div>
+                            </div>                        
+                        </div>
+                        
+                        <div class="col-12 mb-3">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z"/>
+                                    </svg>
+                                </div>
+                                <div class="col text-center">
+                                    <h4 class="mb-0">📈</h4>
+                                </div>
+                                <div class="col-6">
+                                    <p class="small mb-0 text-muted">Positive transactions about cash flow</p>
+                                </div>
+                                <div class="col-4">
+                                    <p id="cashPositive" class="small fw-bold mb-0"></p>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                        <div class="col-12 mt-2">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-right-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm5.904-2.803a.5.5 0 1 0-.707.707L9.293 10H6.525a.5.5 0 0 0 0 1H10.5a.5.5 0 0 0 .5-.5V6.525a.5.5 0 0 0-1 0v2.768L5.904 5.197z"/>
+                                    </svg>
+                                </div>
+                                <div class="col text-center">
+                                    <h4 class="mb-0">📈</h4>
+                                </div>
+                                <div class="col-6">
+                                    <p class="small mb-0 text-muted">Negative transactions about cash flow</p>
+                                </div>
+                                <div class="col-4">
+                                    <p id="cashNegative" class="small fw-bold mb-0"></p>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <script>
+        fetch('./cashbox2021december.csv').then(response => response.text()).then( data => {
+            
+            let righe = data.split("\n");
+            let colonne = righe.map(el => el.split(",")[4]);
+            let final = colonne.slice(1);
+            
+            
+            let positive = final.filter(el => el.startsWith("€"))
+            .map(el => Number(el.split("").splice(1).join("")))
+            .reduce((t,n) => t + n)
+            console.log(`transazioni in ingresso cash +${positive}`);
+            
+            let negative = final.filter( el => el.startsWith("-"))
+            .map( el => el.split("").splice(2).join(""))
+            .map(el => Number(el))
+            .reduce((t,n) => t + n)
+            
+            console.log(`transazioni in uscita cash -${negative}`);
+            
+            let cashNegative = document.querySelector('#cashNegative')
+            cashNegative.textContent = `€${negative}`
+            
+            let cashPositive = document.querySelector('#cashPositive')
+            cashPositive.textContent = `€${positive}`
+        })
+        
+        
+        fetch('./extracto.csv').then(response => response.text()).then( ext => {
+            
+            let rows = ext.split("\n");
+            
+            let cols = rows.map( el => el.split(","))
+            
+            let extractCurrent = Number(cols.slice(9)[0][4].split("").slice(1,-1).join(""))
+            
+            console.log(`saldo totale banca a fine anno +${extractCurrent}`);
+            
+            let dicemberExt = cols.slice(8)
+            .map( el => el[3])
+            .slice(1,-1)
+            .map( el => Number(el.split("").slice(1,-1).join("")))
+            .reduce((t,n) => t + n)
+            
+            console.log(`saldo movimenti banca dicembre +${dicemberExt}`);
+            
+            let estratto = document.querySelector('#estratto');
+            estratto.textContent = `€${extractCurrent}`
+            
+            let balanceDecember= document.querySelector('#balanceDecember');
+            balanceDecember.textContent = `€${dicemberExt}`
+            
+            
+        })
+        
+    </script>
+</body>
+</html>
